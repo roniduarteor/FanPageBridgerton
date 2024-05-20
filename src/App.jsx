@@ -1,5 +1,7 @@
 import {BrowserRouter, Routes, Route, Link} from 'react-router-dom'
-import Header from './Header'
+import Header from './Header/Header.jsx'
+
+import './App.css'
 
 import Home from './Home/Home'
 import Sobre from './Sobre'

@@ -4,30 +4,22 @@ const Home = () => {
     return(
         <>
         <header className="homeHeader">
-        <h1>Fan Page</h1>
+        <div>
+            <h1>Steven Universe</h1>
+            <h2>Fan Page</h2>
+        </div>
+
+        
+            
+
+            <img src="https://cn.i.cdn.ti-platform.com/content/737/steven-universe/showpage/cl/showpagehero_stevenuniverse1x.3fc51dfc.png?imwidth=1600" alt="" className="stevenFamilyImg"/>
         </header>
 
         <main className="homeMain">
-        <div className="homeFirstPart">
+            <h1 className="homeMainTitle">About</h1>
+        <p className="textHomeMain">Steven Universe (original name) is a cartoon series on the Cartoon Network channel created by Rebecca Sugar that premiered on November 4, 2013 in the United States and on April 7, 2014 in Brazil. It is the first cartoon in the channel's history to be made by a woman.</p>
 
-        <div className="homeMainTitle">
-        <h1>Bridgerton Season</h1>
-        <h1>3</h1>
-        </div>
-
-        <p className="homeMainDescription">The third season of “Bridgerton” recently premiered on Netflix after months of anticipation from fans. Unlike the previous seasons, this installment breaks from the book tradition and focuses on the romantic involvement between Penelope Featherington and Colin Bridgerton.</p>
-
-        <div className="homeMainMiniImageContainer">
-        <p className="homeMainDescriptionImage">Romance focused in Penelope Featheringhton and Colin Bridgerton</p>
-        <img src="https://th.bing.com/th/id/OIP.OxLoHv7MToz5FVGpm4ogvwAAAA?rs=1&pid=ImgDetMain" alt="" className="homeMainAditionalImage"/>
-        </div>
-
-        </div>
-
-        <div className="homeSecondPart">
-            <img src="https://th.bing.com/th/id/OIP.HZ2Ry-UPPTKmQzo5TkBLpwHaEU?rs=1&pid=ImgDetMain" alt="" />
-        </div>
-
+        <img src="https://giffiles.alphacoders.com/298/29875.gif" alt="" className="gifInitial"/>
         </main>
         </>
     )
