@@ -4,9 +4,9 @@ import Header from './Header/Header.jsx'
 import './App.css'
 
 import Home from './Home/Home'
-import Sobre from './Sobre'
-import Servicos from './Servicos'
-import Contatos from './Contatos'
+import About from './About/About'
+import Characters from './Characters'
+import Pagina404 from './Pagina404/Pagina404.jsx'
 
 // BrowserRouter -> componente que envolve tudo que depende do react-router
 
@@ -22,9 +22,10 @@ const App = () => {
             <Routes>
 
                 <Route path='/' element={<Home/>}/>  {/* / -> home  */} 
-                <Route path='/sobre' element={<Sobre/>}/>
-                <Route path='/servicos' element={<Servicos/>}/>
-                <Route path='/contatos' element={<Contatos/>}/>
+                <Route path='/about' element={<About/>}/>
+                <Route path='/characters' element={<Characters/>}/>
+                <Route path='*' element={<Pagina404/>}/>
+                
 
             </Routes>
 
